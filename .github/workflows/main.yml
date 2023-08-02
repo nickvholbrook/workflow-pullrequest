@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Job 1
-        run: cat sample.txt
+        run: echo "Job 1 executed"
 
   job2:
     runs-on: ubuntu-latest
