@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Job 1
-        run: echo "Job 1 executed"
-
+        run: echo "Job 1 executed - branch1"
   job2:
     runs-on: ubuntu-latest
     needs: job1 #for dependent jobs
